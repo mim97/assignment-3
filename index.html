@@ -199,21 +199,21 @@
             <!-- card container -->
              <!-- card 1 -->
             <div class="grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-4  p-4 gap-5 mb-24">
-               <div class=" p-4 bg-pink-300  rounded-3xl">
+               <div class=" p-4 bg-pink-200  rounded-3xl">
                 <img src="./assets/concept.png" alt="">
                 <h4 class="text-1xl font-bold">Concept</h4>
                 <p>The barn house captivates with its blend of rustic charm and modern</p>
                </div>
                <!-- card 2 -->
 
-               <div class="p-4 bg-yellow-300 rounded-3xl">
+               <div class="p-4 bg-yellow-200 rounded-3xl">
                 <img src="./assets/flow-chart.png" alt="">
                 <h4 class="text-1xl font-bold">Design Process</h4>
                 <p>The barn house captivates with its blend of rustic charm and modern</p>
                </div>
                <!-- card 3 -->
 
-               <div class="p-4 bg-green-300 rounded-3xl">
+               <div class="p-4 bg-green-200 rounded-3xl">
                 <img src="./assets/vision.png" alt="">
                 <h4 class="text-1xl font-bold">Supervision</h4>
                 <p>The barn house captivates with its blend of rustic charm and modern</p>
@@ -221,7 +221,7 @@
              
 
             <!-- card 4 -->
-               <div class="p-4 bg-sky-500 rounded-3xl ">
+               <div class="p-4 bg-blue-200 rounded-3xl ">
                 <img src="./assets/budget-planning.png" alt="">
                 <h4 class="text-1xl font-bold">Budget Planning</h4>
                 <p>The barn house captivates with its blend of rustic charm and modern</p>
@@ -232,58 +232,103 @@
         <!-- end -->
 
         <!-- start Our Portfolio challenge section -->
-         <section class=" md:container mx-auto  bg-white-500 space-x-7">
-            <div class="text-center mt-10">
-                <button class="btn rounded-3xl bg-gradient-to-r from-[#ABEF5F] to-[#628936] mt-10 mb-5"> <i class="fa-solid fa-arrow-right"></i> Explore our Latest works</button>
+
+        <section class="container mx-auto p-10 lg:p-14 bg-white rounded-3xl">
+            <div class="py-8 lg:py-24 space-y-6 text-center">
+              <button class="btn bg-green-50 rounded-3xl">
+                <i class="fa-solid fa-arrow-right"></i> Explore our Latest works
+              </button>
+              <h3 class="text-5xl font-bold">Our Latest Portfolio</h3>
+              <p class="text-xl font-medium-16 ">
+                The barn house captivates with its blend of rustic charm and modern
+                sophistication, featuring weathered wood, sleek metal accents.
+              </p>
             </div>
-            <div class="text-center mb-20 ">
-                <h1 class="font-bold  text-3xl mb-5">Our Latest Portfolio</h1>
-                <p>The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
-            </div>
-
-            <!-- start img setup -->
-              <div class="grid grid-cols-2">
-                <div>
-                    <img src="./assets/img1.png" alt="">
-                    <div>
-                        <h4 class="text-1xl font-bold">Concept</h4>
-                        <p>The barn house captivates with its blend of rustic charm and modern.</p>
-                        <p>The barn house captivates with its blend of rustic charm and modern.</p>
-                         
-                        <h6 class="font-bold">View Details  <i class="fa-solid fa-circle-arrow-right text-2xl  -rotate-45 text-lime-300 "></i>  </h6>
-                       </div>
-                    </div>
-                </div>
-                   <img src="./assets/img2.png" alt="">
-
-                   
-              </div>
-
-              <!--  -->
-              <div>
-
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+              <div class="lg:col-span-3">
+                <div class="lg:flex p-6 border rounded-2xl gap-3">
+                  <!-- image -->
                   <div>
-                    <img src="./assets/img3.png" alt="">
-                   </div>
-
-                <div>
-                    <img src="./assets/img4.png" alt="">
-
-                    <div>
-                        <h4 class="text-1xl font-bold">Commercial</h4>
-                        <p>The barn house captivates with its blend of rustic charm and modern.</p>
-                        <h6 class="font-bold">View Details  <i class="fa-solid fa-circle-arrow-right text-2xl  -rotate-45 text-lime-300 "></i>  </h6>
-                    </div>
+                    <img class="w-full" src="assets/img1.png" alt="" />
+                  </div>
+                  <!-- text -->
+                  <div class="space-y-4">
+                    <h5 class="font-extrabold text-xl mt-4 lg:mt-0">Commercial</h5>
+                    <p>
+                      The barn house captivates with its blend of rustic charm
+                      <br class="hidden lg:flex md:flex" />
+                      and modern. The barn house captivates with its blend of
+                      <br class="hidden lg:flex md:flex" />
+                      rustic charm and modern .
+                    </p>
+                    <button class="btn bg-white border-none rounded-3xl text-xl">
+                      View Details
+                      <div class="relative">
+                        <div class="h-8 w-8 bg-lime-300 rounded-[50%]"></div>
+                        <i
+                          class="absolute z-50 top-0 left-[6px] fa-solid fa-arrow-up-long text-xl rotate-45"
+                        ></i>
+                      </div>
+                    </button>
+                  </div>
                 </div>
-
-                <div>
-                    <img src="./assets/img5.png" alt="">
-                </div>
-
               </div>
-
-
-         </section>
+              <div class="p-6 border rounded-2xl">
+                <img class="w-full" src="assets/img2.png" alt="" />
+              </div>
+              <div class="p-6 border rounded-2xl flex items-center justify-center">
+                <img
+                  class="w-full md:w-[70%] lg:w-[70%]"
+                  src="assets/img3.png"
+                  alt=""
+                />
+              </div>
+              <div
+                class="p-6 border rounded-2xl flex items-center justify-center lg:hidden"
+              >
+                <img
+                  class="w-full md:w-[70%] lg:w-[70%]"
+                  src="assets/img5.png"
+                  alt=""
+                />
+              </div>
+              <div class="lg:col-span-2">
+                <div class="lg:flex p-6 border rounded-2xl gap-3">
+                  <!-- image -->
+                  <div>
+                    <img class="w-full" src="assets/img4.png" alt="" />
+                  </div>
+                  <!-- text -->
+                  <div class="space-y-4">
+                    <h5 class="font-extrabold text-xl mt-4 lg:mt-0">Commercial</h5>
+                    <p>
+                      The barn house captivates with<br
+                        class="hidden lg:flex md:flex"
+                      />its blend of rustic charm and<br
+                        class="hidden lg:flex md:flex"
+                      />modern .
+                    </p>
+                    <button class="btn bg-white border-none rounded-3xl text-xl">
+                      View Details
+                      <div class="relative">
+                        <div class="h-8 w-8 bg-lime-300 rounded-[50%]"></div>
+                        <i
+                          class="absolute z-50 top-0 left-[6px] fa-solid fa-arrow-up-long text-xl rotate-45"
+                        ></i>
+                      </div>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="p-6 border rounded-2xl flex items-center justify-center">
+                <img
+                  class="w-full md:w-[70%] lg:w-[70%]"
+                  src="assets/img5.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </section>
          <!--End portfolio challenge section -->
 
 
